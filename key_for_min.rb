@@ -6,5 +6,5 @@ def key_for_min_value(name_hash)
   binding.pry
   name_hash.reject{|key, value| value > smallest_value}.collect do |key, value|
     key
-  en
+  end
 end
